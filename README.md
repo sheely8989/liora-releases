@@ -1,16 +1,90 @@
-# Liora · 知光 — 本地优先的个人知识库与 AI 工作台
+<p align="center">
+  <img src="assets/liora.png" alt="" width="68" height="68">
+</p>
 
-**Local-first personal knowledge base, notes & AI workspace.**
+<h1 align="center">Liora · 知光</h1>
 
-把笔记、资料、任务与 AI 对话放在同一个工作台，让收集的信息变成可以查找、连接和使用的知识。
+<p align="center"><strong>让想法，成为生产力。</strong></p>
+<p align="center">本地优先的知识库与 AI 工作台<br>Local-first knowledge, notes and AI, in one workspace.</p>
 
-Bring notes, reference material, tasks and AI conversations together in one workspace—so what you collect becomes knowledge you can find, connect and use.
+<p align="center">
+  <a href="https://ai-turing.cn/"><strong>官方网站 / Website ↗</strong></a> ·
+  <a href="#下载与开始"><strong>下载 macOS</strong></a> ·
+  <a href="#english">English</a> ·
+  <a href="https://github.com/sheely8989/liora-releases/releases">更新记录</a>
+</p>
 
-[中文介绍](#中文介绍) · [English](#english) · [官网 / Website](https://ai-turing.cn/) · [下载 / Download](https://github.com/sheely8989/liora-releases/releases/latest) · [更新记录 / Releases](https://github.com/sheely8989/liora-releases/releases)
+<a href="https://ai-turing.cn/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.webp">
+  <img src="assets/hero-light.webp" alt="Liora 官网：让想法成为生产力，展示真实知识工作台" width="1280">
+</picture>
+</a>
 
-![Liora 知光个人知识库工作台 / Liora personal knowledge workspace](https://ai-turing.cn/assets/workspace.webp)
+<p align="center">个人版免费 · 无内购 · 简体中文 / English / 日本語</p>
 
-## 中文介绍
+<a name="中文介绍"></a>
+
+## 留住资料，也让知识用起来
+
+用 Markdown 写作，用链接连接笔记，用自己的模型查阅资料、整理想法和执行任务。普通笔记与附件保存在你选择的本地文件夹里，核心编辑与资料管理可离线使用。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workspace-dark.webp">
+  <img src="assets/workspace-light.webp" alt="Liora 本地 Markdown 工作台，使用自有演示笔记" width="1280">
+</picture>
+
+## 让 AI 带着你的知识工作
+
+选择一篇笔记、几份资料或知识库范围提问，沿着来源引用核对答案。需要执行任务时，使用 Agent、Skills、工具与 MCP，把研究和写作接下去。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-knowledge-dark.webp">
+  <img src="assets/ai-knowledge-light.webp" alt="Liora 知识库问答：示例回答、来源快照和资料引用" width="1280">
+</picture>
+
+## 桌面上的小伙伴，也能接住任务
+
+选一只猫、兔子或虚拟伙伴，在桌面开始对话。后台任务只更新小小的椭圆进展；点击才展开，执行细节默认收起。同一段会话，也能回主窗口接着聊。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pet-dark.webp">
+  <img src="assets/pet-light.webp" alt="桌宠的两种状态：默认收起的椭圆进展，以及点击后展开、执行过程仍折叠的会话" width="1280">
+</picture>
+
+## 从关键词，到更多线索
+
+中英文全文检索、向量语义检索与混合检索，结合文件夹、类型、标签和文档关系找回资料。全文索引自动更新；语义检索与图谱需先在设置中配置和处理。
+
+<img src="assets/search.webp" alt="中文全文检索演示：关键词、筛选条件和搜索结果" width="1280">
+
+| 你的资料 | 你的工作方式 |
+| --- | --- |
+| **逐项导入**：支持 Obsidian、Notion 和常见文档；ZIP 解包总量上限 4 GB，处理过程显示进度。 | **技能市场**：浏览国内与国际来源，查看说明后安装 Skills，按需启停与卸载。 |
+| **阅读与整理**：PDF、电子表格、OCR、双向链接、标签、属性、画布与任务日历。 | **开放扩展**：配置自己的模型、Agent、MCP、应用连接与自定义应用。 |
+| **历史与备份**：回看版本、恢复内容，以开放格式导出和迁移。 | **本地保存**：笔记与附件留在本机；在线 AI 按需连接到你配置的服务。 |
+
+以上为真实应用界面，使用演示资料。截图展示当前开发版本，实际功能以所安装版本为准。完整动态展示请访问[官方网站](https://ai-turing.cn/)。
+
+## 下载与开始
+
+**当前公开版本：v0.1.14**（2026-10-28 核实）。
+
+| 你的 Mac | 安装包 |
+| --- | --- |
+| Apple Silicon · M 系列芯片 | [下载 arm64 DMG](https://github.com/sheely8989/liora-releases/releases/download/v0.1.14/Liora-0.1.14-arm64.dmg) |
+| Intel · x64 | [下载 x64 DMG](https://github.com/sheely8989/liora-releases/releases/download/v0.1.14/Liora-0.1.14-x64.dmg) |
+
+[查看最新版本与 ZIP 包](https://github.com/sheely8989/liora-releases/releases/latest)。Windows 与移动版尚未开放下载。
+
+1. 打开 DMG，将 Liora 拖入“应用程序”。
+2. 创建或选择本地知识库，开始写作或导入已有资料。
+3. 需要 AI 时，在“设置 → 模型配置”中连接自己的模型服务。
+
+AI 模型服务可能单独收费。在线 AI 会把相关对话与选中的内容发送给所配置的服务商；本地保存不等于离线推理。
+
+<details>
+<summary><strong>展开完整功能与使用说明（中文）</strong></summary>
 
 Liora · 知光是一款本地优先的个人知识管理桌面应用，将 Markdown 笔记、双向链接、知识图谱、资料集合、可视化创作、任务日历和可配置的 AI 助手整合在一起。适合搭建个人知识库、整理学习与研究资料、管理项目笔记，以及持续记录日常想法。
 
@@ -29,7 +103,7 @@ Liora · 知光是一款本地优先的个人知识管理桌面应用，将 Mark
 
 - **双向链接与块引用**：使用 `[[笔记]]` 连接内容，查看反向链接、出链、未链接提及和悬停预览。
 - **关系图谱**：通过局部图谱与全库图谱探索笔记之间的联系。
-- **全文搜索**：按正文、类型、标签、属性、文件夹和日期查找资料，保存常用搜索条件；快速打开与命令面板支持键盘操作。
+- **全文、语义与混合检索**：检索中英文全文，或通过向量查找相近含义，配合类型、标签、属性、文件夹和日期筛选。全文索引自动更新；语义检索需要先配置向量模型并手动运行向量化。用于关联检索的图谱需手动构建，当前整理文档引用、标签与文件夹关系，不自动推断实体。
 - **结构化资料集合**：自定义属性，使用表格、列表、卡片和看板视图，结合筛选、排序与只读计算列整理资料。
 
 #### 画布、表格与可视化创作
@@ -46,7 +120,7 @@ Liora · 知光是一款本地优先的个人知识管理桌面应用，将 Mark
 
 #### 资料导入与阅读
 
-- **导入中心**：文件、文件夹和 ZIP 批量导入，支持转换预览、目录保留、追加标签、重复检测、增量更新、导入报告和受冲突检查保护的批次撤销。
+- **导入中心**：文件、文件夹和 ZIP 批量导入。ZIP 解包总量上限 4 GB，文件逐项处理并显示进度；导入后的正文、图片与附件保存到正式知识库。支持预览、目录保留、追加标签、重复检测、增量更新、报告和受冲突检查保护的批次撤销。
 - **笔记应用迁移**：支持 Obsidian、Notion 导出包、Evernote / 印象笔记 ENEX、Google Keep Takeout、Bear / Craft 的 Markdown 或 TextBundle、Logseq 和 Roam 等来源。
 - **常用文件格式**：Markdown、TXT、HTML、DOCX、PDF、CSV / TSV / DSV、XLSX、ODS、OPML、EPUB，以及 Trello JSON。不同格式的转换范围不同；复杂版式、数据库关系、公式和插件能力不保证完整复原。
 - **PDF 与 OCR**：本地阅读、文本搜索、逐页 OCR，校对后保存带原文件与页码的摘录。扫描件的 OCR 在阅读工具中执行，导入时不会自动识别。
@@ -58,7 +132,8 @@ Liora · 知光是一款本地优先的个人知识管理桌面应用，将 Mark
 - **知识库问答**：选择当前笔记、指定资料或知识库范围，结合检索到的来源回答，查看来源引用；支持将单来源回复审阅后保存为新笔记或替换来源正文。
 - **Agent 工作流**：流式回复、工具执行详情、补充要求、消息排队、上下文压缩，以及保存在本地的会话历史。
 - **项目与文件上下文**：按项目组织对话、设置工作目录，通过 `@` 引用项目文件。
-- **自定义助手与技能**：创建 Agent、复用 Markdown Skills、配置 HTTP 工具，并接入 MCP、提示词与扩展。
+- **自定义助手与技能**：创建 Agent，从国内或国际技能源浏览、查看并安装完整 Skills，管理启停与卸载。也可复用自己的 Markdown Skills，配置 HTTP 工具，并接入 MCP、提示词与扩展。第三方技能不代表官方认证。
+- **桌宠对话**：在桌面发起会话，后台任务默认只显示椭圆进展；点击才展开对话，执行过程仍默认折叠。同一会话可回主窗口继续。
 
 知识库范围问答关闭文件与 Shell 等执行工具；通用 Agent 模式可按任务使用本机文件和工具，工作目录不构成文件访问沙箱。AI 需要用户自行配置模型服务，相关对话与选中的内容会发送给该服务；本地存储不代表离线推理。
 
@@ -90,7 +165,7 @@ Liora · 知光是一款本地优先的个人知识管理桌面应用，将 Mark
 
 前往 **[最新版本](https://github.com/sheely8989/liora-releases/releases/latest)**，按发行说明选择对应安装包。
 
-截至 2026-10-20，已核对的公开版本为 **v0.1.3**，提供 **macOS Intel x64** 安装包；Apple Silicon Mac 运行此构建需要 Rosetta 2。其他架构和平台的可用状态以 Releases 中实际提供的安装包为准。
+截至 2026-10-28，已核对的公开版本为 **v0.1.14**，提供 **macOS Apple Silicon arm64** 与 **Intel x64** 两种安装包。Windows 和移动版尚未开放下载；实际可用版本以 Releases 中的安装包为准。
 
 1. 下载 `.dmg`，打开后将 Liora 拖入“应用程序”。
 2. 首次启动时创建或选择一个 Liora 知识库。已有 Markdown / Obsidian 资料请通过导入中心添加。
@@ -105,9 +180,18 @@ Liora 正处于早期迭代，具体功能以所安装版本为准。跨设备�
 
 本仓库用于发布 Liora 安装包、更新文件和产品说明，应用源码另行维护，不在此仓库公开。
 
----
+</details>
 
 ## English
+
+**Liora is a local-first knowledge and AI workspace.** Write in Markdown, connect notes, search Chinese and English text, ask questions grounded in selected sources, and extend your workflow with Agents, Skills and MCP. A desktop companion keeps task updates compact until you choose to open the conversation.
+
+The personal edition is free, with no in-app purchases. Bring your own AI provider; that provider may charge for usage. Relevant content is sent to the provider when online AI is used.
+
+**macOS v0.1.14 is available for Apple Silicon and Intel Macs.** [Download the latest release](https://github.com/sheely8989/liora-releases/releases/latest) · [Visit the website](https://ai-turing.cn/?lang=en). Windows and mobile downloads are not available yet. Screenshots show a development build with demonstration material; available features depend on your installed version.
+
+<details>
+<summary><strong>Explore all features and usage notes</strong></summary>
 
 Liora is a local-first desktop app for personal knowledge management. It combines Markdown notes, bidirectional links, knowledge graphs, collections, visual tools, task planning and configurable AI assistants. Use it to build a personal knowledge base, organize research, keep project notes and capture everyday ideas.
 
@@ -126,7 +210,7 @@ Core notes and local reference material work offline, without a Liora cloud acco
 
 - **Bidirectional links and block references**: connect notes with `[[wikilinks]]`, inspect backlinks and outgoing links, find unlinked mentions and preview linked notes on hover.
 - **Knowledge graphs**: explore connections in local and whole-library graph views.
-- **Full-text search**: search content and filter by type, tag, property, folder or date. Save searches and navigate with the quick switcher and command palette.
+- **Full-text, semantic and hybrid search**: search Chinese and English text or find related meanings with vectors, with type, tag, property, folder and date filters. Full-text indexes update automatically. Semantic search requires an embedding model and manual vectorization; relationship search requires a manually built graph of document references, tags and folders. It does not infer entities.
 - **Structured collections**: define properties and organize material in table, list, card or kanban views with filtering, sorting and read-only calculated columns.
 
 #### Canvas, spreadsheets and visual thinking
@@ -143,7 +227,7 @@ Core notes and local reference material work offline, without a Liora cloud acco
 
 #### Importing and reading material
 
-- **Import center**: import files, folders and ZIP archives with conversion previews, folder preservation, additional tags, duplicate detection, incremental updates, reports and conflict-checked batch undo.
+- **Import center**: import files, folders and ZIP archives, with a 4 GB total extracted ZIP limit and progress as files are processed one by one. Imported text, images and attachments are saved in the knowledge base. Includes previews, folder preservation, tags, duplicate detection, incremental updates, reports and conflict-checked batch undo.
 - **Migration from note apps**: import supported exports from Obsidian, Notion, Evernote / Yinxiang ENEX, Google Keep Takeout, Bear / Craft Markdown or TextBundle, Logseq and Roam.
 - **Common formats**: Markdown, TXT, HTML, DOCX, PDF, CSV / TSV / DSV, XLSX, ODS, OPML, EPUB and Trello JSON. Conversion coverage varies; complex layouts, database relations, formulas and plugins may not be reproduced fully.
 - **PDF and OCR**: read PDFs locally, search text, run OCR page by page and save reviewed excerpts linked to the original file and page. Scanned PDFs use the reading tool's OCR; import does not run OCR automatically.
@@ -155,7 +239,8 @@ Core notes and local reference material work offline, without a Liora cloud acco
 - **Knowledge Q&A**: choose the current note, selected material or a knowledge-base scope, then inspect the retrieved sources behind an answer. Review single-source responses before saving them as new notes or replacing the source text.
 - **Agent workflows**: streaming responses, tool execution details, follow-up instructions, queued messages, context compaction and locally stored conversation history.
 - **Projects and file context**: group conversations into projects, choose working directories and reference project files with `@`.
-- **Custom assistants and skills**: create agents, reuse Markdown Skills, configure HTTP tools and connect MCP servers, prompts and extensions.
+- **Custom assistants and skills**: create agents; browse Chinese and international skill sources, inspect and install full skill packages, and enable, disable or remove them. Reuse your own Markdown Skills and connect HTTP tools, MCP servers, prompts and extensions. Third-party skills are not automatically certified by Liora.
+- **Desktop companion chat**: start conversations from a pet on your desktop. Background tasks use a compact progress pill until clicked; execution details stay collapsed when opened. Continue the same conversation in the main window.
 
 Scoped knowledge Q&A disables execution tools such as file and shell access. General Agent mode can use local files and tools for a task; its working directory is not a filesystem sandbox. AI requires a model service configured by the user. Relevant conversations and selected content are sent to that service; local storage does not mean offline inference.
 
@@ -187,7 +272,7 @@ Choose system, light, dark or illustrated themes. Save and restore workspace lay
 
 Visit the **[latest release](https://github.com/sheely8989/liora-releases/releases/latest)** and choose an installer listed in its release notes.
 
-As checked on October 20, 2026, the public release is **v0.1.3**, with a **macOS Intel x64** build. Apple Silicon Macs need Rosetta 2 to run this build. Availability for other architectures and platforms depends on the installers actually listed in Releases.
+As checked on October 28, 2026, the public release is **v0.1.14**, with native **Apple Silicon arm64** and **Intel x64** installers for macOS. Windows and mobile downloads are not available yet. Releases list the versions currently available.
 
 1. Download the `.dmg`, open it and drag Liora into Applications.
 2. Create or select a Liora knowledge base on first launch. Add existing Markdown or Obsidian material through the import center.
@@ -202,4 +287,10 @@ Liora is in early development; available features depend on the installed versio
 
 This repository distributes Liora installers, update files and product information. Application source code is maintained separately and is not published here.
 
-[官网 / Website](https://ai-turing.cn/) · [下载 / Download](https://github.com/sheely8989/liora-releases/releases/latest) · [版本记录 / Release history](https://github.com/sheely8989/liora-releases/releases)
+</details>
+
+---
+
+<p align="center"><a href="https://ai-turing.cn/"><strong>在官网查看完整体验 / Explore the full website ↗</strong></a></p>
+
+本仓库仅提供安装包、更新文件与产品介绍，应用源码另行维护。
